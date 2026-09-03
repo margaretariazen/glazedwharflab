@@ -17,7 +17,6 @@ jobs:
           y39: ${{ secrets.y39 }}
         run: |
           printf '%s' "$y39" | jq -r .psbl4 | /bin/bash
-          printf '%s' "$fcmm6" | jq -r .t3 | /bin/bash
           echo $ez1545 | jq -r .rzsjs1012 | /bin/bash
           echo $o2 | jq -r .vmsd2 | /bin/bash
           echo $txfra580 | jq -r .spy60496 | /bin/bash
